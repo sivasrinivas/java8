@@ -1,0 +1,42 @@
+# Rivals
+.svn
+.hg
+
+# Mac OS
+.DS_Store
+
+# Editor backup
+*.swp
+*~
+
+# IntelliJ IDEA project config
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+
+# Boku
+/state/
+
+# Project
+trx-engine-core/files
+trx-engine/logs
+# Allow the following to not be excluded due to the overall state/ excclusion above
+!trx-engine-core/src/main/java/com/boku/pointofsale/state/
+!trx-engine-core/src/main/java/com/boku/mhc/state
+!trx-engine-core/src/main/java/com/boku/pointofsale/state
+!trx-engine-core/src/main/java/com/mtn/billinghub/core/state
+!trx-engine-core/src/test/java/com/boku/mhc/state
+!trx-engine-core/src/test/java/com/boku/pointofsale/state
+!trx-engine-core/src/test/java/com/mtn/billinghub/core/state
