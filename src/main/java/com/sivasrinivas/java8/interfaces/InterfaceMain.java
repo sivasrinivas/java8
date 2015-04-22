@@ -1,12 +1,12 @@
-package com.sivasrinivas.java8.classes;
+package com.sivasrinivas.java8.interfaces;
 
 import com.sivasrinivas.java8.interfaces.CalculatorInterface;
 import com.sivasrinivas.java8.interfaces.SimpleInterface;
 
 /**
- * @author samara
+ * @author sivasrinivas
  */
-public class Test {
+public class InterfaceMain {
 
     public static void main(String[] args) {
 
